@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "roboto", "sans-serif";
+}
+
+.bg {
+  position: absolute;
+  background: pink;
+  top: 0;
+  right: 0;
+  height: 550px;
+  z-index: -1;
+}
+.nav {
+  height: 80px;
+  /* position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1; */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 70px;
+}
+.nav ul {
+  float: right;
+  position: relative;
+  top: 35px;
+  right: 100px;
+}
+.nav ul li {
+  float: left;
+
+  margin-right: 45px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+.nav ul li a {
+  color: rgba(0, 0, 0, 0.9);
+  display: block;
+}
+.nav ul li a:hover {
+  color: #ed390f;
+}
+.qoute {
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  padding: 13px 33px;
+  left: 50px;
+  bottom: 10px;
+  outline: none;
+  background-image: linear-gradient(to right, #ed390f, #f7b501);
+}
+.qoute a {
+  color: white !important;
+}
+.qoute:hover {
+  background-image: linear-gradient(to left, #ed390f, #f7b501);
+  transition: 5s ease-in;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 45%;
+  top: 100px;
+  left: 70px;
+  position: relative;
+}
+.hero-text h5 {
+  font-family: "poppins", "sans-serif";
+  color: #556172;
+  font-size: 14px;
+}
+.hero-text h1 {
+  font-family: "poppins", "sans-serif";
+  color: #0c2e60;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 900;
+  margin: 14px 0px 15px 0px;
+}
+.hero-text p {
+  font-family: "roboto", "sans-serif";
+  font-size: 15px;
+  color: #777777;
+  line-height: 2;
+}
+.hero-text ul {
+  position: absolute;
+  top: 320px;
+}
+.hero-text ul li {
+  float: left;
+  margin-left: 25px;
+  text-transform: uppercase;
+}
+.sbutton {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 13px 33px;
+  left: 50px;
+  bottom: 10px;
+  outline: none;
+}
+.sbutton a {
+  color: black !important;
+}
+.sbutton:hover {
+  background-image: linear-gradient(to left, #ed390f, #f7b501);
+  transition: 5s ease-in;
+}
+.sbutton a:hover {
+  color: white !important;
+}
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+.feature {
+  height: 80vh;
+  position: relative;
+  width: 95%;
+}
+.feature-box {
+  float: left;
+  height: 50vh;
+  width: 20%;
+  border: 1px solid #bebcbc78;
+  margin: 40px 0px 40px 40px;
+  position: relative;
+  top: 70px;
+  left: 15px;
+}
+.feature-box:nth-child(1) {
+  border: none;
+  /* margin-left: 10px; */
+}
+
+.feature-box:nth-child(1) h1 {
+  margin-top: 10%;
+  color: #0c2e60;
+  font-size: 42px;
+  font-weight: 900;
+  font-family: "poppins", "sans-serif";
+  line-height: 40px;
+}
+.feature-box:nth-child(1) p {
+  color: #878893;
+  font-weight: bold;
+  margin: 10% 0%;
+  font-family: "roboto", "sans-serif";
+  font-size: 14px;
+}
+.feature-box:nth-child(1) button {
+  margin-top: 7%;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  padding: 13px 33px;
+
+  margin-left: 55px;
+  bottom: 10px;
+  outline: none;
+  background-image: linear-gradient(to right, #ed390f, #f7b501);
+  box-shadow: 0px 12px 20px 0px rgba(255, 126, 95, 0.15);
+}
+.feature-box:nth-child(1) button:hover {
+  background-image: linear-gradient(to left, #ed390f, #f7b501);
+  transition: 5s ease-in;
+}
+.feature-box i {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #f0f4f6;
+  text-align: center;
+  padding: 13px;
+  box-sizing: border-box;
+  margin: 10% 40%;
+  color: white;
+  font-size: 40px;
+  display: block;
+  padding-top: 10px;
+}
+.feature-box h1 {
+  margin-top: 10%;
+  color: #0c2e60;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: "poppins", "sans-serif";
+  text-align: center;
+  line-height: 2;
+}
+.feature-box p {
+  color: #878893;
+  font-weight: bold;
+  font-family: "roboto", "sans-serif";
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5%;
+  line-height: 2;
+}
+.feature-box:hover i {
+  background-image: linear-gradient(to left, #ed390f, #f7b501);
+}
+.feature-box:hover {
+  border: 1px solid red;
+}
+.feature-box:nth-child(1):hover {
+  border: none;
+}
